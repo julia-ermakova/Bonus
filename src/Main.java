@@ -5,7 +5,9 @@ public class Main {
         int bonus;
         if (replenishmentAmount > 1000) {
             bonus = replenishmentAmount / 100;
-        } else { bonus = 0;}
+        } else {
+            bonus = 0;
+        }
         int total = moneyInTheAccount + replenishmentAmount + bonus;
         System.out.println("На вашем балансе " + total + " рублей");
         System.out.println("У вас " + bonus + " бонусных рублей");
